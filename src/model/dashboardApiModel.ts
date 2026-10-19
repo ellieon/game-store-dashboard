@@ -1,0 +1,32 @@
+  export interface DeltaResponseObject {
+    stores: StoreDeltaObject[];
+    comparisonDate: Date;
+  }
+
+  export interface StoreDeltaObject {
+    name: string;
+    categories: CategoryDeltaObject[];
+  }
+
+  export interface CategoryDeltaObject { 
+    name: string;
+    id: number;
+    newGames: ItemObject[];
+    removedGames: ItemObject[];
+  }
+
+  export interface ItemObject {
+    boxName: string;
+    sellPrice: number;
+    id: string;
+  }
+
+
+  export interface StateMetadataResponseObject{
+    stateMetadata: StateMetadataObject[]
+  }
+  export interface StateMetadataObject {
+    userId: number;
+    stateId: number;
+    date: Date;
+  }
