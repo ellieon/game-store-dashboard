@@ -8,22 +8,28 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "engines": {},
   "dependencies": {
+    "@chakra-ui/react": "^3.37.0",
+    "@emotion/react": "^11.14.0",
+    "@hookform/resolvers": "^6.0.0",
     "axios": "^1.20.0",
-    "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
-    "react-app-env": "^1.0.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^6.1.2",
-    "typescript": "^4.9.3",
-    "vite": "^8.3.4"
+    "next-themes": "^0.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.90.0",
+    "react-icons": "^5.7.0",
+    "zod": "^4.6.7"
   },
   "allowScripts": {
     "esbuild@0.18.20": true,
     "fsevents@2.3.3": true
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
   }
 }
